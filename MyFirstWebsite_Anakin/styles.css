@@ -1,9 +1,11 @@
-* {
+body {
   font-size: 18px;
   font-family: "Josefin Sans", sans-serif;
   line-height: 1.5em;
+  margin-top: 0px;
   /*   word-wrap: break-word; */
 }
+
 header {
   font-family: "Abril Fatface", cursive;
   position: relative;
@@ -26,7 +28,7 @@ header {
   /* 611x54 */
   position: absolute;
   left: 290px;
-  top: 270px;
+  top: 300px;
   font-family: inherit;
   font-size: 72px;
 }
@@ -52,6 +54,7 @@ blockquote {
   background: #222;
   font-size: 48px;
   font-family: "Abril Fatface", cursive;
+  line-height: 1.2em;
   text-align: left;
   width: 800px;
   /*   height: 165px; */
