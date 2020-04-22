@@ -1,0 +1,30 @@
+* {
+  font-family: "Sen", sans-serif;
+}
+div {
+  display: flex;
+  height: 500px;
+}
+header {
+  display: flex;
+  background-color: purple;
+  height: 50px;
+  align-items: center;
+}
+a {
+  background-color: cyan;
+  height: 30px;
+  width: 70px;
+  margin: 10px;
+}
+.bigger {
+  width: 150px;
+}
+main {
+  flex-grow: 4;
+  background-color: yellow;
+}
+aside {
+  flex-grow: 1;
+  background-color: lime;
+}

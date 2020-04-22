@@ -1,0 +1,42 @@
+* {
+  font-family: "Sen", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  height: 70px;
+  width: 100%;
+  padding-left: 90px;
+}
+a {
+  display: block;
+  background-color: cyan;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  text-decoration: none;
+}
+div {
+  display: flex;
+  height: 500px;
+  margin: 80px 100px 10px 100px;
+}
+main {
+  flex-grow: 3;
+  background-color: yellow;
+}
+aside {
+  flex-grow: 1;
+  background-color: lime;
+}
+footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin: 0 100px;
+}
+.bigger {
+  width: 150px;
+}

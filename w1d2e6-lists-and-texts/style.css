@@ -1,0 +1,18 @@
+main {
+  width: 400px;
+}
+h1 {
+  color: tomato;
+}
+h2 {
+  color: purple;
+}
+ol {
+  list-style-type: upper-roman;
+}
+li > span {
+  text-decoration: underline;
+}
+.colored {
+  color: magenta;
+}

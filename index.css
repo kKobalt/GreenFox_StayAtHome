@@ -3,23 +3,18 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin: 0px;
-  border: 1px dashed blue;
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* margin-top: 0px; */
-  /*   word-wrap: break-word; */
-}
-.border {
-  border: 1px dotted orange;
+  /* border: 1px dashed blue; */
 }
 .container {
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
   margin: 0px auto;
   width: 800px;
 }
 .link-fox {
-  color: #74ad5a;
-  background: url(img/favicon_gf.gif) no-repeat left center;
+  /* color: #74ad5a; */
+  background: url(img/favicon_gf.svg) no-repeat left center;
   padding-left: 19px;
+  margin-left: 10px;
 }
 /* .link-yt {
   color: red;
@@ -36,12 +31,23 @@ a:hover {
   text-decoration: underline;
 }
 a[href*="youtube.com/"] {
-  background: url(img/favicon_yt.ico) no-repeat left center;
-  padding-left: 19px;
+  background: url(img/favicon_yt.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
 }
 a[href*="github.com/"] {
-  background: url(img/favicon_gh.ico) no-repeat left center;
-  padding-left: 19px;
+  background: url(img/favicon_gh.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+}
+a[href*="codepen.io/"] {
+  background: url(img/favicon_cp.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
   height: 16px;
   width: 16px;
 }
