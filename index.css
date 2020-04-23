@@ -10,15 +10,6 @@ body {
   margin: 0px auto;
   width: 800px;
 }
-.link-fox {
-  /* color: #74ad5a; */
-  background: url(img/favicon_gf.svg) no-repeat left center;
-  padding-left: 19px;
-  margin-left: 10px;
-}
-/* .link-yt {
-  color: red;
-} */
 a {
   text-decoration: none;
   color: #2a7ae2;
@@ -51,6 +42,14 @@ a[href*="codepen.io/"] {
   height: 16px;
   width: 16px;
 }
+a[href*="greenfox.academy/"] {
+  /* color: #74ad5a; */
+  background: url(img/favicon_gf.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+}
 p {
   margin: 0px auto;
   font-size: 16px;
@@ -65,4 +64,3 @@ h3 {
   font-size: 19px;
   line-height: 28px;
 }
-
