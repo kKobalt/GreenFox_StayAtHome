@@ -1,104 +1,68 @@
 body {
-  font-size: 18px;
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 1.5em;
-  margin-top: 0px;
-  /*   word-wrap: break-word; */
-}
-
-header {
-  font-family: "Abril Fatface", cursive;
-  position: relative;
-  width: 1280px;
-  height: 400px;
-  margin: 0 auto;
-  border: 1px dashed pink;
-  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
-  background-size: 100%;
-}
-.hi1 {
-  /* 230x26 */
-  position: absolute;
-  left: 290px;
-  top: 240px;
-  font-family: inherit;
-  font-size: 35px;
-}
-.hi2 {
-  /* 611x54 */
-  position: absolute;
-  left: 290px;
-  top: 300px;
-  font-family: inherit;
-  font-size: 72px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+  /* border: 1px dashed blue; */
 }
 .container {
-  width: 700px;
-  margin: 0 auto;
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
+  margin: 0px auto;
+  width: 800px;
+}
+.link-fox {
+  /* color: #74ad5a; */
+  background: url(img/favicon_gf.svg) no-repeat left center;
+  padding-left: 19px;
+  margin-left: 10px;
+}
+/* .link-yt {
+  color: red;
+} */
+a {
+  text-decoration: none;
+  color: #2a7ae2;
+}
+/* a:not(*) {
+  text-decoration: underline;
+  color: #2a7ae2;
+} */
+a:hover {
+  text-decoration: underline;
+}
+a[href*="youtube.com/"] {
+  background: url(img/favicon_yt.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+}
+a[href*="github.com/"] {
+  background: url(img/favicon_gh.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+}
+a[href*="codepen.io/"] {
+  background: url(img/favicon_cp.svg) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
 }
 p {
-  /*   font-family: "Josefin Sans", sans-serif; */
-  font-size: 15px;
+  margin: 0px auto;
+  font-size: 16px;
+  line-height: 24px;
 }
-.bigger {
-  font-size: 20px;
-}
-.bolder {
-  font-weight: 600;
-}
-blockquote {
-  box-sizing: border-box;
-  position: relative;
-  color: white;
-  background: #222;
-  font-size: 48px;
-  font-family: "Abril Fatface", cursive;
-  line-height: 1.2em;
-  text-align: left;
-  width: 800px;
-  /*   height: 165px; */
-  padding: 45px 0px 45px 50px;
-  margin: 60px -50px;
-}
-.quote {
-  font-family: inherit;
-  position: absolute;
-  top: 0px;
-  left: -2px;
-  font-size: 150px;
-  line-height: 0.8em;
-  color: white;
+
+h2 {
+  font-size: 24px;
+  line-height: 36px;
 }
 h3 {
-  /*   display: block; */
-  font-size: 24px;
-  text-transform: uppercase;
-  margin-bottom: 40px;
+  font-size: 19px;
+  line-height: 28px;
 }
-h4 {
-  /*   display: block; */
-  font-size: 21px;
-  margin-bottom: 0px;
-  /*   line-height: 0.02em; */
-}
-em {
-  font-size: 15px;
-  font-family: "Merriweather", serif;
-  /*   line-height: 0.3em; */
-  /*   margin-top: 0; */
-}
-.list {
-  font-size: 1em;
-  list-style-type: square;
-}
-li {
-  font-size: 0.85em;
-  list-style-type: square;
-}
-hr {
-  height: 4px;
-  border: 0px;
-  background: black;
-  margin: 60px auto;
-}
+
