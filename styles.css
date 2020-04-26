@@ -10,6 +10,12 @@ body {
   margin: 0px auto;
   width: 800px;
 }
+.visible ~ ul {
+  display: block;
+}
+.hidden ~ ul {
+  display: none;
+}
 a {
   text-decoration: none;
   color: #2a7ae2;
