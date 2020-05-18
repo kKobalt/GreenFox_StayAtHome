@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GFA w1d2e3: Velox Zerda Lagopus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="./scripts2.js"></script>
+  <style>
+    p {
+      width: 300px;
+      /* background: #0d91a1; */
+      color: #015668;
+      padding: 20px;
+      padding-bottom: 50px;
+      border: 5px solid #7dce94;
+      font-family: 'Baloo Thambi 2', cursive;
+      font-weight: 500;
+      font-size: 2em
+    }
+  </style>
+</head>
+
+<body>
+  <span style="font-family: 'Baloo Thambi 2', cursive;  font-weight: 500;  font-size: 2em">
+    Původní: <a href="../w1d2/w1d2e3.html">../w1d2/w1d2e3.html</a>
+  </span>
+  <section class="section1">
+    <p id="fox-1">Velox</p>
+    <p id="fox-2" class="fox">Zerda</p>
+    <p id="fox-3">Lagopus</p>
+
+    <script>
+      // jQuery script
+      $("#fox-1").text('Macrotis');
+      $("#fox-2").css('border-color', 'purple');
+      $("p").css('background', 'yellow'); // all <p> elements to THIS PLACE (till NOW)
+    </script>
+  </section>
+
+  <section class="section2">
+    <p id="fox-4">Velox</p>
+    <p class="fox">Zerda</p>
+    <p id="fox-6">Lagopus</p>
+    <!-- <p id="fox-6">Lagopus</p> -->
+
+    <script>
+      // JS script
+      changeStyles();
+      // var x = document.getElementsByTagName("p");
+      // x.style.backgroundColor = "salmon";
+      // function changeStyles() {
+      //   var x = document.getElementsByTagName("p");
+      //   x[3].style.backgroundColor = "salmon";
+      //   console.log("second <section> changed");
+      // }
+    </script>
+  </section>
+
+</body>
+
+</html>
